@@ -1,0 +1,56 @@
+/*------ body-background color and font family ----------------------- */
+
+body {
+  background-color: #4ca5ce;
+  font-family: 'Roboto Mono';
+}
+/* ------------------------------------------------------------------ */
+
+/*-------- header-color,font size,display and direction. -------------*/
+h1,
+span {
+  color: white;
+}
+
+h1 {
+  font-size: 38px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+}
+.head-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* --------------------------------------------------------------------- */
+
+/* ----------styling the navbar------------------------------------------ */
+
+.nav-list ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav {
+  margin-right: 1%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Arial narrow';
+  font-weight: normal;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.element {
+  font-size: 50px;
+}
+/* --------------------------------------------------------------------- */

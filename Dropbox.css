@@ -1,0 +1,209 @@
+/* Here is the styling of the body */
+body {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: rgba(245, 245, 245, 0.88);
+}
+
+/* here the wholepage has been displayed as flex */
+
+.container {
+  display: flex;
+  font-size: 20px;
+  height: 100vh;
+}
+
+/* styling the left side of the page */
+
+.left {
+  line-height: 50px;
+  width: 60%;
+  background-color: #6d002d;
+}
+
+.grey {
+  font-size: 4rem;
+  margin-left: 100px;
+  margin-left: 100px;
+  padding: 0;
+  line-height: 50pt;
+  color: #add8e6;
+  font-family: Arimo;
+  font-weight: 600;
+}
+
+.orange {
+  color: whitesmoke;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-right: 300px;
+  font-family: Arimo;
+  line-height: 20px;
+}
+
+footer {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+/* styling the navbar of lefthand side */
+
+.nav {
+  max-width: 450px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 0px;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  color: whitesmoke;
+  align-self: flex-start;
+  font-family: Arimo;
+}
+
+.box {
+  flex-direction: row;
+  flex-grow: 5;
+}
+
+.special {
+  font-size: 30px;
+}
+
+/* styling the righthand side of the page */
+
+.right {
+  background-color: white;
+  width: 40%;
+  margin-left: 10px;
+  padding: 10px;
+  font-family: Arimo;
+  line-height: 30px;
+}
+/* styling the righthand side navbar */
+.navvv {
+  max-width: 450px;
+  margin: 50px;
+  padding: 0px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+.second ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  align-self: flex-end;
+  font-family: Arimo;
+  text-decoration: none;
+  justify-content: flex-end;
+  flex-grow: 3;
+  color: gray;
+}
+
+.red a {
+  text-decoration: none;
+  color: gray;
+}
+
+.red {
+  margin: 7px;
+}
+/* styling the righthand side body------------------------------------------------- */
+h2 {
+  font-size: 25px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+/* styling the heading of the righthand side */
+
+.head {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* styling the signup and google link button  */
+
+.input {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  flex: 3;
+  margin-left: 20px;
+  margin-right: 90px;
+}
+
+input {
+  line-height: 30px;
+  font-size: 1rem;
+  padding: 1%;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.button a {
+  text-decoration: none;
+  color: gray;
+}
+.pink {
+  background-color: #4286f4;
+  width: 70%;
+  height: 5%;
+}
+.pink a {
+  color: white;
+  font-size: 18px;
+}
+
+.green {
+  width: 70%;
+  height: 5%;
+}
+
+/* -------------------- */
+
+/* styling for terms of services */
+
+.purple {
+  font-size: 10px;
+  color: gray;
+  margin-left: 20px;
+  margin-right: 90px;
+  line-height: 10px;
+}
+
+/* -------------------------------- */
+
+/* styling the checkbox for dropbox terms */
+
+.blue {
+  font-size: 10px;
+}
+.blue {
+  font-size: 10px;
+}
+span {
+  font-size: 10px;
+  color: gray;
+}
+.yellow {
+  margin-right: 90px;
+  margin-left: 20px;
+}
+/* -------------------------------------------- */
